@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 .bg-red {
 	background-color: rgb(248, 0, 50);	
 }
@@ -29,4 +33,19 @@
 
 .card-body {
     padding: 12px 12px;
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: rgb(248, 0, 50);
+    border-color    : rgb(248, 0, 50);
+}
+
+.btn-primary:hover {
+    background-color: rgb(241, 241, 241);
+    border-color    : rgb(248, 0, 50);
+    color           : rgb(248, 0, 50);
 }
