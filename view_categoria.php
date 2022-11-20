@@ -10,7 +10,7 @@ require 'conection.php';
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Categoria</title>
+    <title>Categoria - E-Commerce</title>
 
     <!-- CSS Aqui -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -21,11 +21,17 @@ require 'conection.php';
 
     <div class="row">
         <div class="col-md-12">
-            <div class="card">
-                <div class="card-header p-5 bg-red">
-                    <a href="index.php">
-                        <h4 class="text-center text-white">E-COMMERCE - SISTEMAS DE INFORMAÇÃO - FASE 4</h4>
-                    </a>
+            <div class="card-header p-5 bg-red">
+                <div class="row">
+                    <div class="col-5">
+                        <a href="index.php">
+                            <h2 class="text-center text-white">E-COMMERCE</h2>
+                        </a>
+                    </div>
+                    <div class="col-4"></div>
+                    <div class="col-1">
+                        <a href="carrinho.php" class="btn btn-carrinho w-100">Carrinho</a>
+                    </div>
                 </div>
             </div>
         </div>
