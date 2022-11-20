@@ -49,3 +49,23 @@ a {
     border-color    : rgb(248, 0, 50);
     color           : rgb(248, 0, 50);
 }
+
+.btn-carrinho {
+    background-color: rgb(241, 241, 241);
+    border-color    : rgb(241, 241, 241);
+}
+
+.btn-carrinho:hover {
+    background-color: rgb(241, 241, 241);
+    border-color    : rgb(241, 241, 241);
+    color           : rgb(248, 0, 50);
+}
+
+.img-view-produto {
+    max-height: 600px;
+    max-width: 600px;
+}
+
+.text-justify {
+    text-align: justify;
+}
