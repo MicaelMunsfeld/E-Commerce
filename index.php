@@ -21,9 +21,17 @@ require 'conection.php';
 
 	<div class="row">
 		<div class="col-md-12">
-			<div class="card">
-				<div class="card-header p-5 bg-red">
-					<h4 class="text-center text-white">E-COMMERCE - SISTEMAS DE INFORMAÇÃO - FASE 4</h4>
+			<div class="card-header p-5 bg-red">
+				<div class="row">
+					<div class="col-5">
+						<a href="index.php">
+							<h2 class="text-center text-white">E-COMMERCE</h2>
+						</a>
+					</div>
+					<div class="col-4"></div>
+					<div class="col-1">
+						<a href="carrinho.php" class="btn btn-carrinho w-100">Carrinho</a>
+					</div>
 				</div>
 			</div>
 		</div>
