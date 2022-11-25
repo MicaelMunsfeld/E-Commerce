@@ -38,7 +38,7 @@ require 'conection.php';
     </div>
     <section class="container mt-5 mb-5">
         <div class="row">
-            <div class="col-3 bg-red p-5 br-10">
+            <div class="col-lg-3 col-md-12 col-sm-12 bg-red p-5 br-10">
                 <div>
                     <?php 
                     $oQuery     = "SELECT * FROM categorias";
@@ -56,7 +56,7 @@ require 'conection.php';
                     ?>
                 </div>
             </div>
-            <div class="col-9 p-3">
+            <div class="col-lg-9 col-md-12 col-sm-12 p-3">
                 <div class="row">
 
                     <?php
@@ -65,7 +65,7 @@ require 'conection.php';
                     $oQuery_run = mysqli_query($oConexao, $oQuery);
                     $oProduto   = mysqli_fetch_array($oQuery_run);
                     ?>
-                    <form method="POST" action="carrinho.php?action=add&id=<?php echo $row["id"]; ?>">
+                    <form method="POST" action="carrinho.php">
                         <div class="card col-12 br-10 p-5">
                             <img class="img-view-produto br-10 img-fluid" src="<?= $oProduto['imagem']; ?>" alt="<?= $oProduto['descricao']; ?>">
                             <div class="card-body">
