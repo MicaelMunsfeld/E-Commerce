@@ -38,7 +38,7 @@ require 'conection.php';
     </div>
     <section class="container mt-5 mb-5">
         <div class="row">
-            <div class="col-3 bg-red p-5 br-10">
+            <div class="col-lg-3 col-md-6 col-sm-12 bg-red p-5 br-10">
                 <div>
                     <?php 
                     $oQuery     = "SELECT * FROM categorias";
@@ -56,7 +56,7 @@ require 'conection.php';
                     ?>
                 </div>
             </div>
-            <div class="col-9 p-3">
+            <div class="col-lg-9 col-md-6 col-sm-12 p-3">
                 <div class="row">
                     <?php 
                     $oQuery     = "SELECT * FROM produtos";
@@ -64,7 +64,7 @@ require 'conection.php';
 
                     foreach($oQuery_run as $oProduto) {
                         ?>
-                        <div class="card col-4 br-10">
+                        <div class="card col-lg-4 col-sm-12 br-10">
                             <img class="img-height-produto br-10" src="<?= $oProduto['imagem']; ?>" alt="<?= $oProduto['descricao']; ?>">
                             <div class="card-body">
                                 <h5 class="card-title"><?= $oProduto['descricao']; ?></h5>
